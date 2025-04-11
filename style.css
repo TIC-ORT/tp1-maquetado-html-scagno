@@ -1,12 +1,11 @@
 body {
-    background-color: whitesmoke;
-}
-h1{
-font-size: xx-large;
+    background-color:cadetblue;
 }
 .caja1{
-color:#dc143c;
-border: 5px solid black;
-padding: 20px;
-border-radius: 30px;
+border: 5px solid rgb(255, 255, 255);
+padding: 50px;
+}
+h2{
+font-size: x-large;
+font-weight: bolder;
 }
