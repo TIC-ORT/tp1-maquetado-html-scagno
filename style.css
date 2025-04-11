@@ -4,3 +4,9 @@ body {
 h1{
 font-size: xx-large;
 }
+.caja1{
+color:#dc143c;
+border: 5px solid black;
+padding: 20px;
+border-radius: 30px;
+}
