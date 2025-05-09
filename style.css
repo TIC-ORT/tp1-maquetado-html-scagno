@@ -1,11 +1,20 @@
 body {
-    background-color:cadetblue;
-}
-.caja1{
-border: 5px solid rgb(255, 255, 255);
-padding: 50px;
-}
-h2{
-font-size: x-large;
-font-weight: bolder;
-}
+    margin: 0;
+    font-family: sans-serif;
+    background: #fff;
+  }
+  
+  header .top-bar {
+    height: 20px;
+    background: #FF6B57;
+  }
+  
+  .nav-bar {
+    height: 40px;
+    background: #BFDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
