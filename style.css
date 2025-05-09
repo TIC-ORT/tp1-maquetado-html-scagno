@@ -18,3 +18,80 @@ body {
     padding: 0 10px;
   }
   
+  .hero {
+    background: #FFD176;
+    display: flex;
+    padding: 20px;
+  }
+ 
+  .hero-image {
+    width: 30%;
+    height: 150px;
+    background: #FFC558;
+  }
+ 
+  .hero-text {
+    flex: 1;
+    margin-left: 20px;
+  }
+ 
+  .hero-text .title {
+    width: 60%;
+    height: 20px;
+    background: #FFB347;
+    margin-bottom: 10px;
+  }
+ 
+  .hero-text .line {
+    height: 10px;
+    background: white;
+    margin: 5px 0;
+    width: 90%;
+  }
+ 
+  .hero-text .line.short {
+    width: 50%;
+  }
+ 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+  }
+ 
+  .card {
+    height: 100px;
+    border-radius: 8px;
+  }
+ 
+  .card.blue {
+    background: #B9E7ED;
+    border-top: 10px solid #89D4DA;
+  }
+ 
+  .card.red {
+    background: #FF977D;
+    border-top: 10px solid #FF6B57;
+  }
+ 
+  .card.yellow {
+    background: #FFE07B;
+    border-top: 10px solid #FFD05C;
+  }
+ 
+  footer {
+    background: #EAEAEA;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+ 
+  .footer-column {
+    width: 20%;
+    height: 60px;
+    background: #D3D3D3;
+  }
+ 
+
